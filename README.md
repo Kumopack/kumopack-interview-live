@@ -1,16 +1,16 @@
-# KumoPack Interview Live
+# KumoPack Technical Interview
 
-Technical Interview Exercises for Senior Full Stack Engineer (OEM Web Application)
+Technical Interview Exercises for Senior Full Stack Engineer
 
 ## 📋 Overview
 
-ชุดโจทย์สำหรับ Technical Live Session (30-40 นาที) ประกอบด้วย 3 ส่วน:
+ชุดโจทย์สำหรับ Technical Live Session ประกอบด้วย 3 ส่วน:
 
-| Exercise                  | เวลา   | AI     | คำสั่ง                 |
-| ------------------------- | ------ | ------ | ---------------------- |
-| 🐛 Debug Challenge        | 12 min | ❌ No  | `npm run test:debug`   |
-| 🔧 Feature Implementation | 15 min | ❌ No  | `npm run test:feature` |
-| 🤖 AI-Assisted Bug Fix    | 10 min | ✅ Yes | `npm run test:ai`      |
+| Exercise                  | เวลา   | AI     | Description                    |
+| ------------------------- | ------ | ------ | ------------------------------ |
+| 🐛 Debug Challenge        | 12 min | ❌ No  | หา Bugs และแก้ไขให้ Tests ผ่าน |
+| 🔧 Feature Implementation | 15 min | ❌ No  | Implement ฟังก์ชัน filter      |
+| 🤖 AI-Assisted Bug Fix    | 10 min | ✅ Yes | ใช้ AI ช่วยแก้ Bug             |
 
 ## 🚀 Setup
 
@@ -18,50 +18,41 @@ Technical Interview Exercises for Senior Full Stack Engineer (OEM Web Applicatio
 # Install dependencies
 npm install
 
-# Run all tests
-npm test
-
-# Run specific exercise tests
-npm run test:debug
-npm run test:feature
-npm run test:ai
+# Run tests for each exercise
+npm run test:debug    # Exercise 1
+npm run test:feature  # Exercise 2
+npm run test:ai       # Exercise 3
 ```
 
-## 📁 Structure
+## 📁 Exercises
 
-```
-├── exercises/
-│   ├── debug-challenge/
-│   │   ├── order-calculator.js      # Buggy code (ผู้สมัครแก้)
-│   │   ├── order-calculator.test.js # Unit tests
-│   │   └── _solution.js             # เฉลย (Interviewer only)
-│   │
-│   ├── feature-challenge/
-│   │   ├── product-filter.js        # Starter code
-│   │   ├── product-filter.test.js   # Unit tests
-│   │   └── _solution.js             # เฉลย
-│   │
-│   └── ai-challenge/
-│       ├── discount-calculator.js   # Buggy code
-│       ├── discount-calculator.test.js
-│       └── _solution.js             # เฉลย
-│
-└── docs/
-    └── interviewer-checklist.md     # Scoring checklist
-```
+### 🐛 Exercise 1: Debug Challenge (12 min)
 
-## 📝 For Interviewers
+- **File:** `exercises/debug-challenge/order-calculator.js`
+- **Goal:** หา Bugs ทั้งหมดและแก้ไขให้ Tests ผ่าน
+- **AI:** ❌ ห้ามใช้
 
-1. ให้ผู้สมัครเปิดโปรเจกต์ใน IDE
-2. ใช้ `docs/interviewer-checklist.md` สำหรับให้คะแนน
-3. ไฟล์ `_solution.js` คือเฉลย ห้ามให้ผู้สมัครเห็น
+### 🔧 Exercise 2: Feature Implementation (15 min)
+
+- **File:** `exercises/feature-challenge/product-filter.js`
+- **Goal:** Implement `filterProducts()` function
+- **AI:** ❌ ห้ามใช้
+
+### 🤖 Exercise 3: AI-Assisted Bug Fix (10 min)
+
+- **File:** `exercises/ai-challenge/discount-calculator.js`
+- **Goal:** ใช้ AI ช่วยหา Bugs และแก้ไข
+- **AI:** ✅ ใช้ได้
 
 ## ⏱️ Timeline
 
-| Phase      | Time       | Activity         |
-| ---------- | ---------- | ---------------- |
-| Intro      | 3 min      | อธิบายกฎ         |
-| 🐛 Debug   | 12 min     | แก้ 4 Bugs       |
-| 🔧 Feature | 15 min     | Implement filter |
-| 🤖 AI      | 10 min     | แก้ Bug ด้วย AI  |
-| **Total**  | **40 min** |                  |
+| Phase      | Time        |
+| ---------- | ----------- |
+| 🐛 Debug   | 12 min      |
+| 🔧 Feature | 15 min      |
+| 🤖 AI Fix  | 10 min      |
+| **Total**  | **~40 min** |
+
+---
+
+Good luck! 🍀
