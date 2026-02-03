@@ -9,7 +9,6 @@
  * AI: ❌ ห้ามใช้
  */
 
-// Sample product data
 export const products = [
   {
     id: 'P001',
@@ -66,5 +65,4 @@ export const products = [
  */
 export function filterProducts(products, filters) {
   // TODO: Implement this function
-  // Your code here
 }
