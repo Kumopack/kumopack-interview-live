@@ -1,0 +1,15 @@
+{
+  "name": "kumopack-interview-live",
+  "version": "1.0.0",
+  "description": "Technical Interview Exercises for Senior Full Stack Engineer",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:debug": "vitest run exercises/debug-challenge",
+    "test:feature": "vitest run exercises/feature-challenge",
+    "test:ai": "vitest run exercises/ai-challenge"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.0"
+  }
+}
