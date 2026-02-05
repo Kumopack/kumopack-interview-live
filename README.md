@@ -55,4 +55,23 @@ npm run test:ai       # Exercise 3
 
 ---
 
+## 🎨 Frontend Track (Optional)
+
+ชุดโจทย์สำหรับตำแหน่ง Frontend Engineer หรือ Full Stack ที่ต้องการเน้น Logic หน้าบ้าน:
+
+| Exercise                   | ไฟล์                                           | จุดประสงค์                              |
+| -------------------------- | ---------------------------------------------- | --------------------------------------- |
+| 🐛 **Debug (State)**       | `debug-challenge/frontend-state-debug.js`      | แก้ปัญหา Immutability & UI Re-rendering |
+| 🔧 **Feature (Transform)** | `feature-challenge/frontend-data-transform.js` | การจัดการข้อมูล (Format/Sort) สำหรับ UI |
+| 🤖 **AI Fix (Regex)**      | `ai-challenge/frontend-ai-highlight.js`        | การจัดการ String & UI Utilities         |
+
+### 🚀 Run Frontend Tests
+
+```bash
+# Run all frontend exercises
+npx vitest exercises/**/frontend-*.test.js
+
+#เป้าหมายคือให้ผ่าน Tests ทั้งหมดเช่นกัน
+```
+
 Good luck! 🍀
